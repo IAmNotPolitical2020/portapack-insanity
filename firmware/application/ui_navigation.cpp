@@ -479,6 +479,7 @@ ReceiversMenuView::ReceiversMenuView(NavigationView& nav) {
 		{ "Radiosnde", 	ui::Color::green(),		&bitmap_icon_sonde,		[&nav](){ nav.push<SondeView>(); } },
 		{ "TPMS Cars", 	ui::Color::green(),		&bitmap_icon_tpms,		[&nav](){ nav.push<TPMSAppView>(); } },
 		{ "APRS", 		ui::Color::green(),		&bitmap_icon_aprs,		[&nav](){ nav.push<APRSRXView>(); } }
+		{ "TEST", 		ui::Color::yellow(),		&bitmap_icon_pocsag,		[&nav](){ nav.push<APRSRXView>(); } }
 		/*
 		{ "DMR", 		ui::Color::dark_grey(),	&bitmap_icon_dmr,		[&nav](){ nav.push<NotImplementedView>(); } },
 		{ "SIGFOX", 	ui::Color::dark_grey(),	&bitmap_icon_fox,		[&nav](){ nav.push<NotImplementedView>(); } }, // SIGFRXView
